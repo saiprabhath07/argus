@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# COLMAP
+database.db
+sparse/
+*.db
+*.ply
+!sample_model.ply
+
+# Temp
+tmp/
+temp/
+*.tmp
+*.log
+frames/
+work/
+
+# Video
+*.mp4
+*.avi
+*.mov
+*.mkv
+!sample*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
