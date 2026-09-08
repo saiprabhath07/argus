@@ -1,0 +1,11 @@
+# ARGUS - SIH26158 - Team ATLAS
+# Core dependencies - CPU only, no CUDA required
+pycolmap==4.2.0
+opencv-python-headless==5.0.0.93
+numpy>=1.24,<3
+streamlit>=1.30
+scipy>=1.10
+pandas>=1.4
+Pillow>=9
+# Optional but useful
+# open3d not required - we use manual PLY writer to avoid install issues
